@@ -1,0 +1,38 @@
+section#index {
+  width: 100%;
+  max-width: 1024px;
+  padding: 2em;
+  font-family: sans-serif;
+  margin: 0 auto;
+}
+
+section#index .content {
+  max-width: 780px;
+}
+
+section#index img {
+  width: 100%;
+}
+
+article#lyrics h1 {
+  font-size: 1.5em;
+  margin-bottom: 0.25em;
+}
+
+article#lyrics h2 {
+  font-size: 1em;
+  margin-top: .25em;
+  margin-bottom: 1.5em;
+}
+
+article#lyrics p {
+  font-family: monospace;
+}
+
+@media screen and (min-width: 680px) {
+  section#index img {
+    float: right;
+    width: 46%;
+    margin: 0 0 1em 1.5em;
+  }
+}

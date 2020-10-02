@@ -1,0 +1,22 @@
+footer[role="contentinfo"] {
+  font-family: sans-serif;
+  font-size: .8em;
+  width: 100%;
+  text-align: right;
+  clear: both;
+}
+
+footer[role="contentinfo"] p,
+footer[role="contentinfo"] nav,
+footer[role="contentinfo"] nav ul,
+footer[role="contentinfo"] nav ul li {
+  display: inline-block;
+}
+
+footer[role="contentinfo"] nav ul li {
+  padding: .5em;
+}
+
+footer[role="contentinfo"] nav ul li a {
+  color: #857d7d
+}

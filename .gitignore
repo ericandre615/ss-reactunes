@@ -1,0 +1,5 @@
+node_modules
+*.swp
+
+# for those using MacOS
+.DS_Store

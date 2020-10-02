@@ -1,0 +1,63 @@
+header[role="banner"] {
+  position: fixed;
+  width: 100%;
+  margin: 0 0 2em 0;
+  background-color: #c0dcdf;
+  top: 0;
+  left: 0;
+  padding: .5em;
+  border-bottom: 1px solid #cfd3e5;
+}
+
+header[role="banner"] h1,
+header[role="banner"] nav[role="navigation"],
+header[role="banner"] nav ul[role="menubar"],
+header[role="banner"] nav ul li[role="menuitem"] {
+  display: inline-block;
+}
+
+header[role="banner"] h1 {
+  margin: 0;
+  vertical-align: middle;
+}
+
+header[role="banner"] h1 a {
+  text-decoration: none;
+  color: white;
+  letter-spacing: -7px;
+}
+
+header[role="banner"] nav[role="navigation"] {
+  vertical-align: middle;
+  width: 100%;
+}
+
+header[role="banner"] input#api-search {
+  display: inline-block;
+  padding: .5em;
+  outline: none;
+  border: 1px solid #cfced9;
+  border-radius: 4px;
+  float: right;
+  margin-top: .75em;
+  margin-right: 2em
+}
+
+ul[role="menubar"] li[role="menuitem"] a {
+  color: gray;
+  font-family: sans-serif;
+  font-size: 1.25em;
+  margin: .5em;
+  padding: .5em;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 680px) {
+  header[role="banner"] input#api-search {
+    width: 200px;
+  }
+
+  header[role="banner"] nav[role="navigation"] {
+    width: 90%;
+  }
+}

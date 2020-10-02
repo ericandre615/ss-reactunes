@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AlbumsList View should match default snapshot 1`] = `
+<div>
+  <AlbumList
+    albums={
+      Array [
+        Object {
+          "artistName": "Guided By Voices",
+          "artistViewUrl": "https://mock.artist.url",
+          "artworkUrl100": "https://mock.album.art/100x100bb.png",
+          "collectionId": 328165532,
+          "collectionName": "Suitcase - Failed Experiments and Trashed Aircraft",
+          "collectionViewUrl": "https://mock.collection.url/suitcase",
+          "copyright": "℗ 2000 Fading Captain Series",
+          "releaseDate": "2000-12-01T08:00:00Z",
+        },
+      ]
+    }
+    artworkSize={600}
+  />
+</div>
+`;

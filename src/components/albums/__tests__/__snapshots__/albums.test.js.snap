@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Albums Components should match empty snapshot 1`] = `
+<ul
+  className="albums-list"
+/>
+`;
+
+exports[`Albums Components should match single AlbumCard snapshot 1`] = `
+<article
+  className="album-card"
+>
+  <div
+    className="img-mask"
+  >
+    <img
+      alt="Guided By Voices Propeller Album Cover"
+      src="https://mock.album.art/source/100x100aa.jpg"
+    />
+  </div>
+  <div
+    className="album-info"
+  >
+    <span
+      className="album-name-mask"
+    >
+      <h1
+        className="album-name"
+      >
+        Propeller
+      </h1>
+    </span>
+    <h2
+      className="artist-name"
+    >
+      Guided By Voices
+    </h2>
+    <h3
+      className="release-date"
+    >
+      February 1992
+    </h3>
+  </div>
+</article>
+`;
+
+exports[`Albums Components should match snapshot with list 1`] = `
+<ul
+  className="albums-list"
+>
+  <li
+    className="album-item"
+    key="280176511"
+  >
+    <NavLink
+      to="/albums/280176511"
+    >
+      <AlbumCard
+        album={
+          Object {
+            "artistName": "Guided By Voices",
+            "artistViewUrl": "https://mock.artist.url",
+            "artworkUrl100": "https://mock.album.art/source/100x100aa.jpg",
+            "collectionId": 280176511,
+            "collectionName": "Propeller",
+            "collectionViewUrl": "https://mock.collection.url/propeller",
+            "copyright": "℗ 1992 Scat",
+            "releaseDate": "1992-02-14T08:00:00Z",
+          }
+        }
+        artworkSize={400}
+      />
+    </NavLink>
+  </li>
+  <li
+    className="album-item"
+    key="328165532"
+  >
+    <NavLink
+      to="/albums/328165532"
+    >
+      <AlbumCard
+        album={
+          Object {
+            "artistName": "Guided By Voices",
+            "artistViewUrl": "https://mock.artist.url",
+            "artworkUrl100": "https://mock.album.art/100x100bb.png",
+            "collectionId": 328165532,
+            "collectionName": "Suitcase - Failed Experiments and Trashed Aircraft",
+            "collectionViewUrl": "https://mock.collection.url/suitcase",
+            "copyright": "℗ 2000 Fading Captain Series",
+            "releaseDate": "2000-12-01T08:00:00Z",
+          }
+        }
+        artworkSize={400}
+      />
+    </NavLink>
+  </li>
+</ul>
+`;
