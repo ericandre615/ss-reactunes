@@ -29,18 +29,19 @@ header[role="banner"] h1 a {
 
 header[role="banner"] nav[role="navigation"] {
   vertical-align: middle;
-  width: 100%;
+  width: 85%;
 }
 
 header[role="banner"] input#api-search {
-  display: inline-block;
+  display: block;
   padding: .5em;
   outline: none;
   border: 1px solid #cfced9;
   border-radius: 4px;
   float: right;
   margin-top: .75em;
-  margin-right: 2em
+  margin-right: 2em;
+  width: 85%;
 }
 
 ul[role="menubar"] li[role="menuitem"] a {
@@ -54,10 +55,18 @@ ul[role="menubar"] li[role="menuitem"] a {
 
 @media screen and (min-width: 680px) {
   header[role="banner"] input#api-search {
+    display: inline-block;
     width: 200px;
   }
 
   header[role="banner"] nav[role="navigation"] {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  ul[role="menubar"] {
+    margin: 0;
+    padding: 0;
   }
 }
