@@ -4,6 +4,8 @@ This repo is an example of an app that uses the iTunes search API. There are tes
 Additional the current version of some package (mainly jest) require 10.16.2 or greater. However,
 if you are wanting to run the code without running test it should work with lower versions of node.
 
+This app is also running live at [react itunes app](http://reactunes.ericandre.info/). If you would like to see a demo without downloading and building code. Thanks you.
+
 ## Usage
 Basic install should be `npm install` and `npm start` to run the dev server.
 
